@@ -13,7 +13,7 @@ Pré-requis :
 * Avoir installé l'environnement de travail décrit dans le [workshop Back #1](https://github.com/Workshop-Polytechnique/Back_Workshop_1) et en particulier `node`, `cordova` et `ionic`, ainsi que la création d'un compte Github.
 
 
-## Création d'une application mobile avec Ionic et sauvegarde sous Github
+## Etape 1 : Création d'une application mobile avec Ionic et sauvegarde sous Github
 
 ### Création de l'application
 
@@ -34,7 +34,7 @@ Pré-requis :
 
 <img src="tutorial_resources/ionic_serve_1.png" alt="Chrome with Ionic" style="width:600px">
 
-## Création du projet sur Git & Github
+## Etape 2 : Création du projet sur Git & Github
 
 * Sur Github, on va créer un nouveau projet public avec le nom de son choix, `showTonightApp` ici, sans aucun fichier (pas de Readme). Vous arriverez alors sur une page qui ressemble à ça :
 
@@ -52,7 +52,7 @@ Pré-requis :
 * En rafraichissant la page, on va maintenant avoir accès à son projet sur Github !
 * Optionel : on peut ajouter à ce moment là un fichier `README.md` afin de décrire son projet.
 
-## Personnalisation de l'application ShowTonight
+## Etape 3 : Personnalisation de l'application ShowTonight
 
 On va maintenant s'attaquer à notre application en la faisant correspondre à nos mockups, sans la brancher sur l'API pour l'instant. 
 Notre objectif sera :
@@ -336,6 +336,18 @@ Ce qui doit donner ça :
 <img src="tutorial_resources/10ed6fd10181146e8639e187ecf7616f8e220f29.png" alt="10ed6fd10181146e8639e187ecf7616f8e220f29" style="width:600px">
 
 
-https://github.com/Workshop-Polytechnique/Mobile_Workshop_1/commit/3a1ba2aee617e217ad8b60218618ec5c924c0e76
+* Vous allez maintenant **commiter** votre code et le **pusher** sur Github
 
+        $ git add -A
+        $ git commit -m 'application statique'
+        $ git push
+
+Si vous retournez sur github.com dans votre repository, vous verrez tous les fichiers que vous avez créé depuis le clonage de votre projet.
+
+Bravo, vous avez réussi !
+
+
+# Ressources
+
+[http://ionicframework.com/docs/overview/](http://ionicframework.com/docs/overview/)
 
